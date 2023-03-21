@@ -91,6 +91,10 @@ h5 {
     margin: 2px;
 }
 
+.highlight {
+    font-weight: 600;
+}
+
 
 
 /* HERO */
@@ -283,10 +287,10 @@ h5 {
 
 #footerNav {
     display: inline-flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-end;
     width: 300px;
-    margin: 0px 0px 0px 0px;
+    margin: 38px 0px 0px 0px;
     padding: 0px;
 
 }
@@ -314,9 +318,11 @@ h5 {
     flex-direction: row;
     justify-content: space-between;
     width: 180px;
-    margin: 0px;
+    margin-bottom: 0px;
     padding: 0px;
 }
+
+
 
 /* TYPE */
 
@@ -419,13 +425,14 @@ h5 {
     }
 
     .navIcons {
+        height: 60px;
         display: flex;
         flex-direction: row;
         border-top: solid 1px #c0c2c4;
         margin: 10px;
         padding-top: 30px;
         width: 100%;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
 
@@ -433,6 +440,7 @@ h5 {
         display: flexbox;
         justify-content: end;
         border: none;
+        cursor: pointer;
     }
 
 
@@ -591,7 +599,7 @@ h5 {
     justify-content: space-around;
     height: 200px;
     margin: 20px;
-    padding: 0px;
+    padding-bottom: 10px;
     order: -1
 
 }
@@ -609,16 +617,16 @@ h5 {
 #footerNav p {
     margin: 0px;
     display: flex;
-    align-items: center;
+    align-items: start;
     font-size: 20px;
 }
 
 
 .icons {
     width: 120px;
-    height: 40%;
-    margin: 5px;
-    padding: 0px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
 }
 
 #footName {

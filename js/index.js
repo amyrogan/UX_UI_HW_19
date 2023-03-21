@@ -39,8 +39,8 @@ $(".close").on("click", function() {
     $(this).css("text-decoration", "none");
   });
 
-  $('.icon').hover(function(){
-    $(this).css({width:"56px",height:"56px"});
-        },function(){
-            $(this).css({width:"55px",height:"55px"});   
-     });
+$('.icon').hover(function(){
+        $(this).css('border-bottom', 'solid 2px #005E98');
+        }, function(){
+        $(this).css('border-bottom', 'solid 0px red');
+      });
