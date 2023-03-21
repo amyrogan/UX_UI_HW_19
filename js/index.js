@@ -31,3 +31,16 @@ $(".close").on("click", function() {
       $(this).find("div").addClass("close");
     }
   });
+
+
+  $("p").hover(function(){
+    $(this).css("text-decoration", "underline");
+    }, function(){
+    $(this).css("text-decoration", "none");
+  });
+
+  $('.icon').hover(function(){
+    $(this).css({width:"56px",height:"56px"});
+        },function(){
+            $(this).css({width:"55px",height:"55px"});   
+     });
