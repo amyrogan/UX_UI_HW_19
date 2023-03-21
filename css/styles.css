@@ -420,7 +420,7 @@ h5 {
     .navIcons {
         display: flex;
         flex-direction: row;
-        border-top: solid 1px;
+        border-top: solid 1px #c0c2c4;
         margin: 10px 10px 10px 10px;
         padding-top: 30px;
         width: 100%;
@@ -448,14 +448,12 @@ h5 {
     }
 
     .closeNav {
-        display: block;
-        align-items: end;
-        justify-content: flex-end;
+        padding-bottom: 30px;
     }
 
-    .navContent {
-        display: inline;
-        justify-content: center;
+    .navContent p {
+        text-align: center;
+        font-size: 20px;
     }
 
 

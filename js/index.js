@@ -21,4 +21,13 @@ $(".close").on("click", function() {
 
 
 
-
+  $(document).on("click", ".burger", function(){
+    $(this).toggleClass("burger");
+    if ($(this).hasClass("burger")) {
+      $(this).find("div").removeClass("burger");
+      $(this).find("closeNav").addClass("close");
+    }
+    else {
+      $(this).find("div").addClass("close");
+    }
+  });
